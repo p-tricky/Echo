@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+.DS_Store
+*.pem
+credentials.csv
+.agignore
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

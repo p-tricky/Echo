@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit_48dp"
+        android:id="@+id/toggle_edit"
+        android:background="#64ffffff"
+        />
+    <LinearLayout
+        android:id="@+id/color_selector"
+        android:layout_width="5mm"
+        android:layout_height="21mm"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:visibility="invisible">
+
+        <View
+            android:id="@+id/red"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff0000" />
+
+        <View
+            android:id="@+id/green"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#00ff00" />
+
+        <View
+            android:id="@+id/blue"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0000ff" />
+
+        <View
+            android:id="@+id/purple"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#9c27b0" />
+
+        <View
+            android:id="@+id/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffe100" />
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/undo"
+        android:src="@drawable/ic_undo_48dp"
+        android:background="#64ffffff"
+        android:visibility="invisible" />
+</LinearLayout>

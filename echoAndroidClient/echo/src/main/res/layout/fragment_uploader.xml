@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.loftythoughts.phloftus.echo.UploaderFragment"
+    android:orientation="vertical">
+
+    <me.loftythoughts.phloftus.echo.DrawingView
+        android:id="@+id/upload_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <me.loftythoughts.phloftus.echo.EchoEditIcons
+        android:id="@+id/color_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5mm"
+        android:layout_marginLeft="5mm"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_file_upload_72dp"
+        android:id="@+id/upload_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:background="#64ffffff" />
+
+</RelativeLayout>

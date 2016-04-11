@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Echo</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale">Access to the camera and location services are crucial to the functionality of this application.</string>
+    <string name="permission_denied_warning">This application won\'t work unless you give it access to your location and your camera.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps.</string>
+    <string name="permission_required_toast">Location and Camera permission is required for this application.</string>
+
+    <!--    Geofences    -->
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+
+    <string name="take">Take</string>
+
+</resources>
